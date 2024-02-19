@@ -1,0 +1,36 @@
+**Enquiry Status - Which/ What / When
+	Previously - 15,7,8
+	Why 15 or 16 - Minimize Database Writes
+	Enquriy Number - 10604209
+	Now, any order / sequencing, Enquiry always processed to check if it exists, if not , Now Processing Deltas
+
+**Errors at 2 application area
+	- All or Nothing 
+	- Validate Enquiry - Fix at PTA level
+	- Document Processing / Posting Error at BC
+
+**PTA Fields vs BC PTA Fields
+	Keep 
+
+**Basic Process Flow Diagram, 
+
+**Hard Deletes (WIP) 
+	Question for Dinesh- Are TransactionBathID Specfic for an Enquiry- No
+
+==========================================
+Procesed Flag as 7 for a Skipped Enquiry
+JobQueue Entries
+==========================================
+
+
+
+**Drop Enquiry**
+	BusinessAreaID 
+	SupplierId 
+	CustomerId 
+	EnquiryPort
+	"Currency Code" 
+	HasVATAmount
+
+	ETD
+	Enquiry Date

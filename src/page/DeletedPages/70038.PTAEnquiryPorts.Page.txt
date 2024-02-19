@@ -1,0 +1,133 @@
+page 70038 "PTA Enquiry Ports"
+{
+    ApplicationArea = All;
+    Caption = 'PTA Enquiry Ports';
+    PageType = ListPart;
+    SourceTable = PTAEnquiryPorts;
+    UsageCategory = Lists;
+
+    layout
+    {
+        area(content)
+        {
+            repeater(General)
+            {
+                field(ID; Rec.ID)
+                {
+                    ToolTip = 'Specifies the value of the ID field.';
+                editable = false;
+                }
+                field(EnquiryId; Rec.EnquiryId)
+                {
+                    ToolTip = 'Specifies the value of the EnquiryId field.';
+                editable = false;
+                }
+                field(PortId; Rec.PortId)
+                {
+                    ToolTip = 'Specifies the value of the PortId field.';
+                editable = false;
+                }
+                field(ETA; Rec.ETA)
+                {
+                    ToolTip = 'Specifies the value of the ETA field.';
+                editable = false;
+                }
+                field(IsSelectedForNomination; Rec.IsSelectedForNomination)
+                {
+                    ToolTip = 'Specifies the value of the IsSelectedForNomination field.';
+                editable = false;
+                }
+                field(ETD; Rec.ETD)
+                {
+                    ToolTip = 'Specifies the value of the ETD field.';
+                editable = false;
+                }
+                field(AdditionalCostApplicable; Rec.AdditionalCostApplicable)
+                {
+                    ToolTip = 'Specifies the value of the AdditionalCostApplicable field.';
+                editable = false;
+                }
+                field(BatchID; Rec.BatchID)
+                {
+                    ToolTip = 'Specifies the value of the BatchID field.';
+                editable = false;
+                }
+                field(EntryNo; Rec.EntryNo)
+                {
+                    ToolTip = 'Specifies the value of the EntryNo field.';
+                editable = false;
+                }
+                field(Processed; Rec.Processed)
+                {
+                    ToolTip = 'Specifies the value of the Processed field.';
+                editable = false;
+                }
+                field(ProcessedDateTime; Rec.ProcessedDateTime)
+                {
+                    ToolTip = 'Specifies the value of the ProcessedDateTime field.';
+                editable = false;
+                }
+                field(ErrorMessage; Rec.ErrorMessage)
+                {
+                    ToolTip = 'Specifies the value of the ErrorMessage field.';
+                editable = false;
+                }
+                field(ErrorDateTime; Rec.ErrorDateTime)
+                {
+                    ToolTip = 'Specifies the value of the ErrorDateTime field.';
+                editable = false;
+                }
+                field(ExternalId; Rec.ExternalId)
+                {
+                    ToolTip = 'Specifies the value of the ExternalId field.';
+                editable = false;
+                }
+                field(isDeleted; Rec.isDeleted)
+                {
+                    ToolTip = 'Specifies the value of the isDeleted field.';
+                editable = false;
+                }
+                field(RecordSkippedDateTime; Rec.RecordSkippedDateTime)
+                {
+                    ToolTip = 'Specifies the value of the RecordSkippedDateTime field.';
+                editable = false;
+                }
+                field(RecordSkippedBy; Rec.RecordSkippedBy)
+                {
+                    ToolTip = 'Specifies the value of the RecordSkippedBy field.';
+                editable = false;
+                }
+                field(SkipMessage; Rec.SkipMessage)
+                {
+                    ToolTip = 'Specifies the value of the SkipMessage field.';
+                editable = false;
+                }
+                field(SystemCreatedAt; Rec.SystemCreatedAt)
+                {
+                    ToolTip = 'Specifies the value of the SystemCreatedAt field.';
+                editable = false;
+                }
+                field(SystemCreatedBy; Rec.SystemCreatedBy)
+                {
+                    ToolTip = 'Specifies the value of the SystemCreatedBy field.';
+                editable = false;
+                }
+                field(SystemId; Rec.SystemId)
+                {
+                    ToolTip = 'Specifies the value of the SystemId field.';
+                editable = false;
+                }
+                field(SystemModifiedAt; Rec.SystemModifiedAt)
+                {
+                    ToolTip = 'Specifies the value of the SystemModifiedAt field.';
+                editable = false;
+                }
+                field(SystemModifiedBy; Rec.SystemModifiedBy)
+                {
+                    ToolTip = 'Specifies the value of the SystemModifiedBy field.';
+                editable = false;
+                }
+            }
+        }
+    }
+}

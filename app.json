@@ -1,0 +1,35 @@
+{
+  "id": "7407ac1f-2b05-4a6a-afea-ffdfb43dfbd0",
+  "name": "PTA Integration",
+  "publisher": "Storm Technologies",
+  "version": "23.0.20240216.3",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 90000
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true    
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile",
+    "GenerateLockedTranslations"
+    
+  ]
+}

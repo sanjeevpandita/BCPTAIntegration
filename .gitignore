@@ -1,0 +1,15 @@
+.vscode/*.*
+.alpackages/*.*
+.Text/*.*
+.app/*.*
+.VSCodeCounter/*.*
+.VSCodeCounter/2024-01-05_12-17-38/*.*
+.VSCodeCounter/2024-01-10_19-47-05/details.md
+.VSCodeCounter/2024-01-10_19-47-05/diff-details.md
+.VSCodeCounter/2024-01-10_19-47-05/diff.csv
+.VSCodeCounter/2024-01-10_19-47-05/diff.md
+.VSCodeCounter/2024-01-10_19-47-05/diff.txt
+.VSCodeCounter/2024-01-10_19-47-05/results.csv
+.VSCodeCounter/2024-01-10_19-47-05/results.json
+.VSCodeCounter/2024-01-10_19-47-05/results.md
+.VSCodeCounter/2024-01-10_19-47-05/results.txt
